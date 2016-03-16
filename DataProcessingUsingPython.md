@@ -204,4 +204,42 @@ file_obj=open(filename,mode='r',buffering=-1)
 + append追加
 + concat连接:pd.concat([p1,p2],ignore_index=True)
 + join连接:pd.merge(p1,p2,on='连接字段')
+
+##Python高级数据处理和可视化
+###聚类分析
+
+###matplotlib图像属性控制
+
+###padas作图
++ 方便快捷：df.close.plot()(对序列和dataframe)
 + 
++ 
+
+###数据存取
++ pd.read_csv('文件')
++ pd.to_scv()
++ pd.to_excel() 
+
+
+##面向对象
+###GUI与面向对象
+
+###抽象
++ 对象（实例）：数据及能对其实施操作所构成的封装体
++ 类：类描述的对象特征（数据和操作）
++ 类的具体化为对象
++ 类的定义:class ClaseName(object):
+    'define ClassName class'
+     class_suit
++ 类的方法定义：class ClaseName(object):
+    'define ClassName class'
+     def greet(self)
+     print 'Hi!'
++ 类属性：仅仅是所定义的类的变量；创建后使用；类中方法更新，或者主程序中更新；修改属性需要使用类名
+
+###继承
++ 父类、子类
++ 子类定义：class SubClaseName(object):
+    'define ClassName class'
+     class_suit
++ 私有属性、方法：双下划线（__）单下划线（_）
